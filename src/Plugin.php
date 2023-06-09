@@ -22,21 +22,21 @@ class Plugin extends BasePlugin
      *
      * @var string
      */
-    protected $name = 'MixerApi/Rest';
+    protected ?string $name = 'MixerApi/Rest';
 
     /**
      * Enable middleware
      *
      * @var bool
      */
-    protected $middlewareEnabled = false;
+    protected bool $middlewareEnabled = false;
 
     /**
      * Register container services
      *
      * @var bool
      */
-    protected $servicesEnabled = false;
+    protected bool $servicesEnabled = false;
 
     /**
      * Plugin options.
@@ -60,7 +60,7 @@ class Plugin extends BasePlugin
      *
      * @var bool
      */
-    protected $routesEnabled = false;
+    protected bool $routesEnabled = false;
 
     /**
      * @inheritDoc
