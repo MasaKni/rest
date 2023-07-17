@@ -8,7 +8,7 @@
         "php": "^8.0",
         "cakephp/cakephp": "5.x-dev",
         "nikic/php-parser": "^4.8",
-        "masakni/class-explorer": "dev-master",
+        "kcs/class-finder": "^0.3",
         "psr/simple-cache": "^3.0"
     },
     "autoload": {
@@ -20,12 +20,6 @@
         "issues": "https://github.com/mixerapi/mixerapi-dev/issues",
         "source": "https://github.com/mixerapi/rest"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/MasaKni/class-explorer.git"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "authors": [
