@@ -1,12 +1,12 @@
 {
-    "name": "masakni/rest",
+    "name": "mixerapi/rest",
     "description": "The missing RESTful API component to CakePHP's bake console. Create RESTful API skeletions in seconds.",
     "type": "cakephp-plugin",
     "license": "MIT",
     "keywords": ["cakephp rest","cakephp5 rest","cakephp rest bake"],
     "require": {
         "php": "^8.0",
-        "cakephp/cakephp": "5.x-dev",
+        "cakephp/cakephp": "^5.0",
         "nikic/php-parser": "^4.8",
         "kcs/class-finder": "^0.3",
         "psr/simple-cache": "^3.0"
