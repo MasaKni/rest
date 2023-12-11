@@ -1,5 +1,5 @@
 {
-    "name": "mixerapi/rest",
+    "name": "masakni/rest",
     "description": "The missing RESTful API component to CakePHP's bake console. Create RESTful API skeletions in seconds.",
     "type": "cakephp-plugin",
     "license": "MIT",
